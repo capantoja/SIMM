@@ -1,0 +1,83 @@
+eeschema (2013-june-11)-stable  >> Creation date: lun 19 ago 2013 20:44:50 COT
+
+#Componentes ( orden = Valor )
+| 50pF         C7        ; SM0805      
+| 0.1uF        C6        ; SM0805      
+| 0.47uF       C3        ; SM1206      
+| 1uF          C2        ; SM0805      
+| 1uF          C5        ; SM0805      
+| 10uF         C1        ; SM1206      
+| 33uF         C4        ; SM1206      
+| 5V1          D1        ;             
+| 5V1          D2        ;             
+| 5V1          D3        ;             
+| 5V1          D4        ;             
+| 5V1          D5        ;             
+| 5V1          D6        ;             
+| JACK_3P      J1        ;             
+| USB_2        J2        ;             
+| USB-MINI     J3        ; ~           
+| JUMPER       JP4       ;             
+| CONN_3       K1        ;             
+| 470 OHMS     L1        ;             
+| 500 OHM 100MHZ L2        ;             
+| 500 OHM 100MHZ L3        ;             
+| 500 OHM 100MHZ L4        ;             
+| 470 OHMS     L5        ;             
+| INDUCTOR_SMALL L6        ;             
+| CONN_12X2    P1        ;             
+| CONN_12X2    P2        ;             
+| CONN_20X2    P3        ;             
+| CONN_12X2    P4        ;             
+| GPS SKYLAB   P5        ;             
+| CONN_2       P6        ;             
+| CONN_10      P7        ;             
+| BNC          P8        ;             
+| 0            R9        ;             
+| 0            R10       ;             
+| 100          R7        ;             
+| 100          R8        ;             
+| 470          R11       ;             
+| 470          R12       ;             
+| 470          R13       ;             
+| 470          R14       ;             
+| 470          R15       ;             
+| 470          R16       ;             
+| 470          R20       ;             
+| 470          R21       ;             
+| 470          R22       ;             
+| 470          R23       ;             
+| 470          R24       ;             
+| 470          R25       ;             
+| 10K          R1        ; SM0805      
+| 10K          R2        ; SM0805      
+| 10K          R17       ; SM0805      
+| 10K          R18       ; SM0805      
+| 10K          R19       ; SM0805      
+| 47K          R26       ; SM0805      
+| 47K          R27       ; SM0805      
+| 47K          R28       ; SM0805      
+| 100K         R3        ; SM0805      
+| 100K         R4        ; SM0805      
+| 100K         R5        ; SM0805      
+| 100K         R6        ; SM0805      
+| 100K         R29       ; SM0805      
+| 100K         R30       ; SM0805      
+| 100K         R31       ; SM0805      
+| 100K         R32       ; SM0805      
+| 100K         R33       ; SM0805      
+| 100K         R34       ; SM0805      
+| UP           SW1       ;             
+| DOWN         SW2       ;             
+| ENTER        SW3       ;             
+| PAGE         SW4       ;             
+| ESD9B3.3ST5G TVS1      ;             
+| ESD9B3.3ST5G TVS2      ;             
+| LM2940       U1        ;             
+| MOCD213      U2        ;             
+| MOCD213      U3        ;             
+| MOCD213      U4        ;             
+| LM324N       U5        ;             
+#Fin Componentes
+
+#Fin de Lista
