@@ -48,7 +48,7 @@ LIBS:xilinx
 LIBS:usb-mini
 LIBS:logo1
 LIBS:SIMM-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

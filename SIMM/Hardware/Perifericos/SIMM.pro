@@ -1,13 +1,8 @@
-update=jue 26 sep 2013 04:27:52 COT
+update=mié 28 ago 2013 08:20:18 COT
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=../SIMM.net
@@ -28,7 +23,6 @@ DrawSegmentWidth="    0,304800"
 BoardOutlineThickness="    0,203200"
 ModuleOutlineThickness="    0,304800"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,16 +31,25 @@ LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
 LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=/home/lithium/Documentos/SIMM/Hardware/Tarjeta hija/Librerias/logo
-LibName18=Librerias/logo
+LibName9=smd_transistors
+LibName10=libcms
+LibName11=display
+LibName12=led
+LibName13=dip_sockets
+LibName14=pga_sockets
+LibName15=valves
+LibName16=/home/lithium/Documentos/SIMM/Hardware/Tarjeta hija/Librerias/logo
+LibName17=Librerias/logo
+LibName18=AUDIOCONN
+LibName19=CONN10
+LibName20=logo
+LibName21=logo1
+LibName22=optocoupler
+LibName23=SOIC8
+LibName24=SOP14
+LibName25=TO220ECS
+LibName26=USB_MINI_A
+LibDir=
 [eeschema]
 version=1
 LibDir=Librerias
@@ -122,3 +125,8 @@ LibName63=SymbolsSimilarEN60617+oldDIN617
 LibName64=transf
 LibName65=usb-mini
 LibName66=video
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

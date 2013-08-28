@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date mié 28 ago 2013 12:32:24 COT
+PCBNEW-BOARD Version 2 date mié 28 ago 2013 12:45:25 COT
 
 # Created by Pcbnew(2013-mar-13)-testing
 
@@ -7,7 +7,6 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFF0000
 Links 201
 NoConn 0
 Di 84.399119 25.478739 240.649761 135.620761
@@ -77,8 +76,8 @@ PadDrill 0
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 84.4677 86.52002
-VisibleElements 7FFFF8F7
-PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory /home/lithium/Documentos/))
+VisibleElements 7FFFFFFF
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerber/))
 $EndSETUP
 
 $EQUIPOT

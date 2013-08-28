@@ -1,4 +1,4 @@
-update=lun 19 ago 2013 19:59:05 COT
+update=jue 26 sep 2013 03:11:06 COT
 version=1
 last_client=pcbnew
 [general]
@@ -110,4 +110,5 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=/home/lithium/Documentos/SIMM/Hardware/Tarjeta hija/Librerias/logo1
+LibName17=/home/lithium/Documentos/SIMM/Hardware/Tarjeta hija/Librerias/logo
+LibName18=Librerias/logo

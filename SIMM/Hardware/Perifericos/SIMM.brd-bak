@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date mié 28 ago 2013 12:32:24 COT
+PCBNEW-BOARD Version 2 date mié 28 ago 2013 12:30:53 COT
 
 # Created by Pcbnew(2013-mar-13)-testing
 
@@ -7,7 +7,7 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFF0000
+VisibleLayers 1FDF0000
 Links 201
 NoConn 0
 Di 84.399119 25.478739 240.649761 135.620761
@@ -77,7 +77,7 @@ PadDrill 0
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 84.4677 86.52002
-VisibleElements 7FFFF8F7
+VisibleElements 7FFFF8D7
 PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory /home/lithium/Documentos/))
 $EndSETUP
 
@@ -2588,7 +2588,7 @@ Po -5.08 0
 $EndPAD
 $EndMODULE DO-41
 $MODULE SOIC8
-Po 172.50156 89.50198 0 0 521E33EC 51EBF917 ~~
+Po 172.50156 89.50198 0 0 521E337D 51EBF917 ~~
 Li SOIC8
 Cd Module CMS SOJ 8 pins large
 Kw CMS SOJ
@@ -2597,7 +2597,7 @@ AR /51873252/51E5ABC5
 Op 0 0 0
 At SMD
 T0 4.02844 0.03302 1.143 1.016 0 0.127 M V 20 N "U2"
-T1 0.09144 2.95402 1.016 1.016 0 0.127 M V 20 N "MOCD213"
+T1 0.47244 3.08102 1.016 1.016 0 0.127 M V 20 N "MOCD213"
 DS -2.54 -1.651 -2.54 1.778 0.127 20
 DS -2.54 1.778 2.54 1.778 0.127 20
 DS 2.54 -1.651 -2.54 -1.651 0.127 20
@@ -4290,14 +4290,14 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SM1206
 $MODULE SM1206
-Po 179.451 97.536 2700 0 521E33D9 5212FD28 ~~
+Po 179.451 97.536 2700 0 5212A7A8 5212FD28 ~~
 Li SM1206
 Sc 5212FD28
 AR /51E2C124
 Op 0 0 0
 At SMD
 T0 -0.05046 1.98124 0.762 0.762 2700 0.127 M V 20 N "R8"
-T1 3.937 0 0.762 0.762 2700 0.127 M I 20 N "100"
+T1 3.85954 -1.25876 0.762 0.762 2700 0.127 M I 20 N "100"
 DS -2.54 1.143 -2.54 -1.143 0.127 20
 DS -2.54 -1.143 -0.889 -1.143 0.127 20
 DS 0.889 1.143 2.54 1.143 0.127 20
@@ -4375,13 +4375,13 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE PIN_ARRAY_4x1
 $MODULE LOGO
-Po 124.714 61.976 0 0 521E3405 5243F041 ~~
+Po 124.714 61.976 0 0 5243F844 5243F041 ~~
 Li LOGO
 Sc 5243F041
 AR 
 Op 0 0 0
-T0 0 -9.652 1.524 1.524 0 0.3048 M I 20 N "G***"
-T1 0 9.652 1.524 1.524 0 0.3048 M I 20 N "LOGO"
+T0 0 -8.636 1.524 1.524 0 0.3048 M I 20 N "G***"
+T1 0 8.636 1.524 1.524 0 0.3048 M I 20 N "LOGO"
 DP 0 0 0 0 10 0.00254 20
 Dl 8.509 -7.83336
 Dl 0.0635 -7.81304

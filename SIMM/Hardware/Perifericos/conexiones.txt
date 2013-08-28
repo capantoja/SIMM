@@ -1,0 +1,49 @@
+L1, L2, L3, should be as close as
+ possible to the headphone jack. 
+
+Los valores minimos y maximos de voltaje
+para las entradas analogas y digitales son 
+11Vdc hasta 15Vdc.
+
+CONEXIONES TOUCH <-----------------> CPU
+
+T_CLK ..............................SSPI_SCK
+T_CS................................SSPI_DATA3
+T_DIN...............................SSPI_CMD
+T_DO................................SSPI_DATA0
+T_IRQ...............................NC
+
+CONEXIONES SDCARD <------------------> CPU
+
+SD_OUT..............................NC
+SD_SCK..............................NC
+SD_DIN..............................NC
+SD_CS...............................NC
+
+CONEXIONES GPS <---------------------> uC
+
+TXD.................................URxD0 PA9 -PIN 22-	
+RXD.................................UTxD0 PA10 -PIN 21-
+
+CONEXIONES TECLADO <-----------------> uC
+
+UP..................................PA8
+DOWN................................PA11
+ENTER...............................PA12
+PAGE................................PA13
+COMMON..............................PA14
+
+CONEXIONES ENTRADAS DIGITALES <------> uC
+
+IN_DIG1............................PA0
+IN_DIG2............................PA1
+IN_DIG3............................PA2
+IN_DIG4............................PA5
+IN_DIG5............................PA6
+IN_DIG6............................PA7  -RPM-
+
+CONEXIONES ENTRADAS ANALOGICAS <-----> uC
+
+IN_ANA1............................PA17
+IN_ANA2............................PA18
+IN_ANA3............................PA19

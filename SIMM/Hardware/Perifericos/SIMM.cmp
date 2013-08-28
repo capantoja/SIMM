@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = jue 26 sep 2013 02:59:08 COT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mié 28 ago 2013 11:34:30 COT
 
 BeginCmp
-TimeStamp = /51E6CDCF;
+TimeStamp = /521E3C1D;
 Reference = C1;
 ValeurCmp = 10uF;
 IdModule  = SM1206;
@@ -15,17 +15,17 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E6DE24;
+TimeStamp = /521E2938;
 Reference = C3;
 ValeurCmp = 0.47uF;
-IdModule  = SM1206;
+IdModule  = c_1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E6DD7D;
+TimeStamp = /521E38D8;
 Reference = C4;
-ValeurCmp = 33uF;
-IdModule  = SM1206;
+ValeurCmp = 47uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -47,6 +47,20 @@ TimeStamp = /51E8036B;
 Reference = C7;
 ValeurCmp = 50pF;
 IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E4189;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E582E;
+Reference = Conn1;
+ValeurCmp = CONN3.5MM;
+IdModule  = AUDIOCONN;
 EndCmp
 
 BeginCmp
@@ -92,10 +106,17 @@ IdModule  = DO-41;
 EndCmp
 
 BeginCmp
-TimeStamp = /51EC69DB;
-Reference = J1;
-ValeurCmp = JACK_3P;
-IdModule  = AUDIOCONN;
+TimeStamp = /521E1067;
+Reference = D7;
+ValeurCmp = 5V;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E1AEE;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -193,7 +214,7 @@ BeginCmp
 TimeStamp = /51E6B01E;
 Reference = P5;
 ValeurCmp = GPS SKYLAB;
-IdModule  = pin_array_12x2;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -211,10 +232,10 @@ IdModule  = P***;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E80283;
+TimeStamp = /521DF3D2;
 Reference = P8;
-ValeurCmp = BNC;
-IdModule  = bornier2;
+ValeurCmp = VDAC;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -339,21 +360,21 @@ EndCmp
 BeginCmp
 TimeStamp = /51873252/51E5B964;
 Reference = R17;
-ValeurCmp = 10K;
+ValeurCmp = 51K;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51873252/51E5B993;
 Reference = R18;
-ValeurCmp = 10K;
+ValeurCmp = 51K;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51873252/51E5B99C;
 Reference = R19;
-ValeurCmp = 10K;
+ValeurCmp = 51K;
 IdModule  = SM1206;
 EndCmp
 
@@ -402,21 +423,21 @@ EndCmp
 BeginCmp
 TimeStamp = /51873252/51E5B9D6;
 Reference = R26;
-ValeurCmp = 47K;
+ValeurCmp = 10K;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51873252/51E5B9FE;
 Reference = R27;
-ValeurCmp = 47K;
+ValeurCmp = 10K;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51873252/51E5BA04;
 Reference = R28;
-ValeurCmp = 47K;
+ValeurCmp = 10K;
 IdModule  = SM1206;
 EndCmp
 
@@ -459,6 +480,20 @@ BeginCmp
 TimeStamp = /51873252/51E5AF62;
 Reference = R34;
 ValeurCmp = 100K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E1ADF;
+Reference = R35;
+ValeurCmp = 1K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E1058;
+Reference = R36;
+ValeurCmp = 1K;
 IdModule  = SM1206;
 EndCmp
 
