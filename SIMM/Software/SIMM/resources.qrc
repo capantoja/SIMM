@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>buttonDOWN.png</file>
+        <file>buttonDOWN_off.png</file>
+        <file>buttonMUSIC.png</file>
+        <file>buttonMUSIC_off.png</file>
+        <file>buttonPLAY.png</file>
+        <file>buttonPLAY_off.png</file>
+        <file>buttonUP.png</file>
+        <file>buttonUP_off.png</file>
+        <file>battery5.png</file>
+        <file>FuelIcon1.png</file>
+        <file>Fondo.png</file>
+        <file>direccionalder.png</file>
+        <file>direccionalizq.png</file>
+        <file>motorcycle6.png</file>
+        <file>motorcycle1.png</file>
+        <file>motorcycle2.png</file>
+        <file>motorycle3.png</file>
+    </qresource>
+</RCC>
