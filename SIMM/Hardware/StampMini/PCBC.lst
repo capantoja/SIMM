@@ -1,0 +1,84 @@
+eeschema (2012-oct-18)-testing  >> Creation date: dom 12 may 2013 15:17:19 COT
+#Cmp ( order = Reference )
+| C1         0.1uF /16V                      ; SM0805      ;             ;             ;             ;             ;             
+| C2         50pF                            ; SM0805      ;             ;             ;             ;             ;             
+| C3         1uF                             ; SM0805      ;             ;             ;             ;             ;             
+| C4         1uF                             ; SM0805      ;             ;             ;             ;             ;             
+| C5         33uF                            ; SM1206      ;             ;             ;             ;             ;             
+| C6         100nF                           ; SM0603      ;             ;             ;             ;             ;             
+| CON1       5VDC                            ;             ;             ; SCD441CPS011B00G;             ;             ;             
+| CON2       USB-A                           ; CONN USB-A Vertical;             ; UE27AC54100 ;             ;             ;             
+| D1         5VDC                            ; SM0603      ;             ;             ;             ;             ;             
+| D2         RSASM                           ;             ;             ;             ;             ;             ;             
+| J1         AUDIO_IN                        ;             ;             ;             ;             ;             ;             
+| J2         AUDIO_OUT                       ;             ;             ;             ;             ;             ;             
+| JP1        USB_ID                          ;             ;             ;             ;             ;             ;             
+| JP4        JUMPER                          ;             ;             ;             ;             ;             ;             
+| L1         2A  120 OHM                     ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L2         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L3         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L4         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L5         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L6         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L7         1500 ohms @ 100MHz                    ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| L8         2A  120 OHM                     ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| P1         i.MX                            ;             ;             ;             ;             ;             ;             
+| P2         LCD_STAMP                       ;             ;             ;             ;             ;             ;             
+| P3         BNC                             ;             ;             ;             ;             ;             ;             
+| P4         ATSAM                           ;             ;             ;             ;             ;             ;             
+| P5         LCD_MODULE                      ;             ;             ;             ;             ;             ;             
+| Q1         2N7002                          ;             ;             ;             ;             ;             ;             
+| R1         10K 5%                          ; SM0805      ;             ;             ;             ;             ;             
+| R2         10K 5%                          ; SM805       ;             ;             ;             ;             ;             
+| R3         100                             ; SM0805      ;             ;             ;             ;             ;             
+| R4         4.7K 5%                         ; SM0805      ;             ;             ;             ;             ;             
+| R5         4.7K 5%                         ; SM0805      ;             ;             ;             ;             ;             
+| R6         100                             ; SM805       ;             ;             ;             ;             ;             
+| R7         1K                              ; SM0805      ;             ;             ;             ;             ;             
+| SW1        RESET                           ;             ;             ;             ;             ;             ;             
+| SW2        PLAY/PAUSE                      ;             ;             ;             ;             ;             ;             
+| U1         RCLAMP0502B                     ; SOT523      ;             ; RCLAMP0502B ;             ;             ;             
+#End Cmp
+
+#Componentes ( orden = Valor )
+| 50pF         C2        ; SM0805      ;             ;             ;             ;             ;             
+| 0.1uF /16V   C1        ; SM0805      ;             ;             ;             ;             ;             
+| 100nF        C6        ; SM0603      ;             ;             ;             ;             ;             
+| 1uF          C3        ; SM0805      ;             ;             ;             ;             ;             
+| 1uF          C4        ; SM0805      ;             ;             ;             ;             ;             
+| 33uF         C5        ; SM1206      ;             ;             ;             ;             ;             
+| 5VDC         CON1      ;             ;             ; SCD441CPS011B00G;             ;             ;             
+| USB-A        CON2      ; CONN USB-A Vertical;             ; UE27AC54100 ;             ;             ;             
+| RSASM        D2        ;             ;             ;             ;             ;             ;             
+| 5VDC         D1        ; SM0603      ;             ;             ;             ;             ;             
+| AUDIO_IN     J1        ;             ;             ;             ;             ;             ;             
+| AUDIO_OUT    J2        ;             ;             ;             ;             ;             ;             
+| USB_ID       JP1       ;             ;             ;             ;             ;             ;             
+| JUMPER       JP4       ;             ;             ;             ;             ;             ;             
+| 2A  120 OHM  L1        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L2        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L3        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L4        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L5        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L6        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 1500 ohms @ 100MHz L7        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| 2A  120 OHM  L8        ; SM0805      ;             ; HZ0805D152R-10;             ;             ;             
+| i.MX         P1        ;             ;             ;             ;             ;             ;             
+| LCD_STAMP    P2        ;             ;             ;             ;             ;             ;             
+| BNC          P3        ;             ;             ;             ;             ;             ;             
+| ATSAM        P4        ;             ;             ;             ;             ;             ;             
+| LCD_MODULE   P5        ;             ;             ;             ;             ;             ;             
+| 2N7002       Q1        ;             ;             ;             ;             ;             ;             
+| 100          R3        ; SM0805      ;             ;             ;             ;             ;             
+| 100          R6        ; SM805       ;             ;             ;             ;             ;             
+| 1K           R7        ; SM0805      ;             ;             ;             ;             ;             
+| 4.7K 5%      R4        ; SM0805      ;             ;             ;             ;             ;             
+| 4.7K 5%      R5        ; SM0805      ;             ;             ;             ;             ;             
+| 10K 5%       R1        ; SM0805      ;             ;             ;             ;             ;             
+| 10K 5%       R2        ; SM805       ;             ;             ;             ;             ;             
+| RESET        SW1       ;             ;             ;             ;             ;             ;             
+| PLAY/PAUSE   SW2       ;             ;             ;             ;             ;             ;             
+| RCLAMP0502B  U1        ; SOT523      ;             ; RCLAMP0502B ;             ;             ;             
+#Fin Componentes
+
+#Fin de Lista

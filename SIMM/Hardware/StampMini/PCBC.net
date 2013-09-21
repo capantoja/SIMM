@@ -1,0 +1,577 @@
+# EESchema Netlist Version 1.1 created  lun 13 may 2013 15:27:23 COT
+(
+ ( /518FB332/518FBE32 $noname  P2 LCD_STAMP {Lib=CONN_12X2}
+  (    1 +5V )
+  (    2 /LCD/GPMI_D07 )
+  (    3 ? )
+  (    4 /LCD/GPMI_D05 )
+  (    5 /LCD/I2C_SDA )
+  (    6 ? )
+  (    7 /LCD/LCD_WR )
+  (    8 /LCD/LCD_RS )
+  (    9 /LCD/CS )
+  (   10 /LCD/LCD_RESET )
+  (   11 /LCD/DB8 )
+  (   12 ? )
+  (   13 /LCD/DB6 )
+  (   14 /LCD/DB7 )
+  (   15 /LCD/DB4 )
+  (   16 /LCD/DB5 )
+  (   17 /LCD/DB2 )
+  (   18 /LCD/DB3 )
+  (   19 /LCD/RESET_PB )
+  (   20 /LCD/DB1 )
+  (   21 ? )
+  (   22 ? )
+  (   23 USB_DP )
+  (   24 USB_DM )
+ )
+ ( /518FB332/518FBF40 $noname  P5 LCD_MODULE {Lib=CONN_20X2}
+  (    1 GND )
+  (    2 3V3 )
+  (    3 ? )
+  (    4 /LCD/LCD_RS )
+  (    5 /LCD/LCD_WR )
+  (    6 /LCD/GPMI_D07 )
+  (    7 /LCD/DB8 )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 /LCD/CS )
+  (   16 PA14 )
+  (   17 /LCD/LCD_RESET )
+  (   18 ? )
+  (   19 /LCD/LED_A )
+  (   20 ? )
+  (   21 ? )
+  (   22 /LCD/DB1 )
+  (   23 /LCD/DB2 )
+  (   24 /LCD/DB3 )
+  (   25 /LCD/DB4 )
+  (   26 /LCD/DB5 )
+  (   27 /LCD/DB6 )
+  (   28 /LCD/DB7 )
+  (   29 PA0 )
+  (   30 PA1 )
+  (   31 ? )
+  (   32 PA5 )
+  (   33 PA6 )
+  (   34 PA7 )
+  (   35 PA11 )
+  (   36 PA10 )
+  (   37 PA9 )
+  (   38 PA8 )
+  (   39 PA12 )
+  (   40 PA13 )
+ )
+ ( /518FB332/518FCFB5 $noname  Q1 2N7002 {Lib=2N7002}
+  (    1 /LCD/GPMI_D05 )
+  (    2 3V3 )
+  (    3 /LCD/LED_A )
+ )
+ ( /518FB332/518FE8FD $noname  SW1 RESET {Lib=SW_PUSH_SMALL}
+  (    1 3V3 )
+  (    2 /LCD/RESET_PB )
+ )
+ ( /518FB332/51913B40 $noname  JP4 JUMPER {Lib=JUMPER}
+  (    1 /LCD/I2C_SDA )
+  (    2 /LCD/CS )
+ )
+ ( /518FB334/518FB41C CONN_USB-A_Vertical  CON2 USB-A_ {Lib=USB-MINI-B}
+  (    1 /MAIN/VBUS )
+  (    2 USB_DM )
+  (    3 USB_DP )
+  (    4 /MAIN/USB_ID )
+  (    5 N-000091 )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
+ )
+ ( /518FB334/518FB459 $noname  JP1 USB_ID {Lib=JUMPER}
+  (    1 /MAIN/SSPI_DETECT )
+  (    2 /MAIN/USB_ID )
+ )
+ ( /518FB334/518FB462 $noname  J2 AUDIO_OUT {Lib=JACK_3P}
+  (    1 N-000092 )
+  (    2 N-000087 )
+  (    3 N-000090 )
+ )
+ ( /518FB334/518FB468 SM0805  L4 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000092 )
+  (    2 /MAIN/HPR )
+ )
+ ( /518FB334/518FB46E SM0603  R3 100 {Lib=R}
+  (    1 /MAIN/HPL )
+  (    2 /MAIN/HP_VGND )
+ )
+ ( /518FB334/518FB474 SM0603  R6 100 {Lib=R}
+  (    1 /MAIN/HPR )
+  (    2 /MAIN/HP_VGND )
+ )
+ ( /518FB334/518FB4B7 $noname  J1 AUDIO_IN {Lib=JACK_3P}
+  (    1 N-000080 )
+  (    2 N-000083 )
+  (    3 N-000079 )
+ )
+ ( /518FB334/518FB4CF SM0603  R1 10K_5% {Lib=R}
+  (    1 N-000082 )
+  (    2 N-000085 )
+ )
+ ( /518FB334/518FB4D5 SM0603  R4 4.7K_5% {Lib=R}
+  (    1 N-000086 )
+  (    2 GND )
+ )
+ ( /518FB334/518FB4DB SM0603  R2 10K_5% {Lib=R}
+  (    1 N-000081 )
+  (    2 N-000086 )
+ )
+ ( /518FB334/518FB4E1 SM0603  R5 4.7K_5% {Lib=R}
+  (    1 N-000085 )
+  (    2 GND )
+ )
+ ( /518FB334/518FB4EE SM0603  C3 1uF {Lib=C}
+  (    1 N-000085 )
+  (    2 /MAIN/LINE1_INR )
+ )
+ ( /518FB334/518FB4F4 SM0603  C4 1uF {Lib=C}
+  (    1 N-000086 )
+  (    2 /MAIN/LINE1_INL )
+ )
+ ( /518FB334/518FB5EF $noname  P4 ATSAM {Lib=CONN_12X2}
+  (    1 +5V )
+  (    2 GND )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 PA14 )
+  (   12 ? )
+  (   13 PA12 )
+  (   14 PA13 )
+  (   15 PA10 )
+  (   16 PA11 )
+  (   17 PA8 )
+  (   18 PA9 )
+  (   19 PA7 )
+  (   20 PA6 )
+  (   21 PA5 )
+  (   22 ? )
+  (   23 PA1 )
+  (   24 PA0 )
+ )
+ ( /518FB334/518FB5F5 $noname  P1 i.MX {Lib=CONN_12X2}
+  (    1 3V3 )
+  (    2 3V3 )
+  (    3 ? )
+  (    4 /MAIN/SSPI_DETECT )
+  (    5 ? )
+  (    6 GND )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 ? )
+  (   11 ? )
+  (   12 /MAIN/VDAC1 )
+  (   13 ? )
+  (   14 ? )
+  (   15 GND )
+  (   16 GND )
+  (   17 /MAIN/HPR )
+  (   18 /MAIN/HP_VGND )
+  (   19 /MAIN/LINE1_INR )
+  (   20 /MAIN/HPL )
+  (   21 ? )
+  (   22 /MAIN/LINE1_INL )
+  (   23 GND )
+  (   24 ? )
+ )
+ ( /518FB334/518FB704 $noname  P3 BNC {Lib=BNC}
+  (    1 /MAIN/VDAC1 )
+  (    2 GND )
+ )
+ ( /518FB334/518FB70A SM0805  C2 50pF {Lib=C}
+  (    1 /MAIN/VDAC1 )
+  (    2 GND )
+ )
+ ( /518FB334/518FB737 SM0603  C1 0.1uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /518FB334/518FFCD9 SOT523  U1 RCLAMP0502B {Lib=RCLAMP0502B}
+  (    1 USB_DM )
+  (    2 USB_DP )
+  (    3 GND )
+ )
+ ( /518FB334/51900205 SM0805  L1 2A__120_OHM {Lib=INDUCTOR_SMALL}
+  (    1 +5V )
+  (    2 /MAIN/VBUS )
+ )
+ ( /518FB334/519002B1 SM1206  C5 33uF {Lib=C}
+  (    1 /MAIN/VBUS )
+  (    2 GND )
+ )
+ ( /518FB334/519002C0 SM0603  C6 100nF {Lib=C}
+  (    1 /MAIN/VBUS )
+  (    2 GND )
+ )
+ ( /518FB334/519002CF SM1206  D2 RSA5M {Lib=DIODE}
+  (    1 GND )
+  (    2 /MAIN/VBUS )
+ )
+ ( /518FB334/5190136C SM0805  L8 2A__120_OHM {Lib=INDUCTOR_SMALL}
+  (    1 GND )
+  (    2 N-000091 )
+ )
+ ( /518FB334/5190139A SM0805  L6 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000087 )
+  (    2 /MAIN/HPL )
+ )
+ ( /518FB334/519013A1 SM0805  L7 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000090 )
+  (    2 /MAIN/HP_VGND )
+ )
+ ( /518FB334/519013B4 SM0805  L2 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000080 )
+  (    2 N-000082 )
+ )
+ ( /518FB334/519013C7 SM0805  L3 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000083 )
+  (    2 N-000081 )
+ )
+ ( /518FB334/519013CE SM0805  L5 1500_ohms_@_100MHz {Lib=INDUCTOR_SMALL}
+  (    1 N-000079 )
+  (    2 GND )
+ )
+ ( /518FB334/51901503 SM0603  R7 1K {Lib=R}
+  (    1 +5V )
+  (    2 N-000078 )
+ )
+ ( /518FB334/51901512 SM0603  D1 5VDC {Lib=LED}
+  (    1 N-000078 )
+  (    2 GND )
+ )
+ ( /518FB334/5190441D con-jack-SPC4077  J3 JACK-PLUG0 {Lib=JACK-PLUG0}
+  (    1 GND )
+  (    2 GND )
+  (    3 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component CON2
+ USB-Mini-B-Jack
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C5 2
+ C2 2
+ CON2 7
+ C6 2
+ D2 1
+ J3 2
+ J3 1
+ U1 3
+ C1 2
+ D1 2
+ CON2 9
+ CON2 8
+ R5 2
+ P3 2
+ R4 2
+ L8 1
+ CON2 6
+ P1 9
+ P5 1
+ P1 6
+ P1 15
+ P4 2
+ P1 23
+ P1 16
+ L5 2
+Net 3 "/LCD/LCD_WR" "LCD_WR"
+ P2 7
+ P5 5
+Net 4 "/LCD/DB8" "DB8"
+ P2 11
+ P5 7
+Net 5 "/LCD/DB2" "DB2"
+ P2 17
+ P5 23
+Net 7 "USB_DP" "USB_DP"
+ CON2 3
+ U1 2
+ P2 23
+Net 9 "/LCD/LCD_RS" "LCD_RS"
+ P5 4
+ P2 8
+Net 10 "/LCD/DB7" "DB7"
+ P5 28
+ P2 14
+Net 11 "/LCD/DB5" "DB5"
+ P2 16
+ P5 26
+Net 12 "/LCD/DB3" "DB3"
+ P2 18
+ P5 24
+Net 18 "3V3" "3V3"
+ Q1 2
+ SW1 1
+ P1 1
+ P1 2
+ P5 2
+Net 19 "PA1" "PA1"
+ P5 30
+ P4 23
+Net 20 "PA0" "PA0"
+ P5 29
+ P4 24
+Net 21 "/LCD/GPMI_D05" "GPMI_D05"
+ Q1 1
+ P2 4
+Net 23 "/LCD/LED_A" "LED_A"
+ Q1 3
+ P5 19
+Net 24 "/LCD/CS" "CS"
+ P2 9
+ P5 15
+ JP4 2
+Net 25 "/LCD/LCD_RESET" "LCD_RESET"
+ P5 17
+ P2 10
+Net 26 "PA12" "PA12"
+ P4 13
+ P5 39
+Net 27 "/LCD/DB1" "DB1"
+ P2 20
+ P5 22
+Net 29 "USB_DM" "USB_DM"
+ CON2 2
+ P2 24
+ U1 1
+Net 30 "/LCD/GPMI_D07" "GPMI_D07"
+ P2 2
+ P5 6
+Net 31 "PA14" "PA14"
+ P5 16
+ P4 11
+Net 32 "PA13" "PA13"
+ P5 40
+ P4 14
+Net 33 "PA11" "PA11"
+ P4 16
+ P5 35
+Net 34 "PA10" "PA10"
+ P4 15
+ P5 36
+Net 35 "PA7" "PA7"
+ P4 19
+ P5 34
+Net 36 "PA6" "PA6"
+ P5 33
+ P4 20
+Net 37 "PA5" "PA5"
+ P4 21
+ P5 32
+Net 38 "PA8" "PA8"
+ P5 38
+ P4 17
+Net 39 "/LCD/RESET_PB" "RESET_PB"
+ SW1 2
+ P2 19
+Net 40 "PA9" "PA9"
+ P5 37
+ P4 18
+Net 41 "/LCD/I2C_SDA" "I2C_SDA"
+ JP4 1
+ P2 5
+Net 43 "/LCD/DB6" "DB6"
+ P5 27
+ P2 13
+Net 44 "/LCD/DB4" "DB4"
+ P2 15
+ P5 25
+Net 51 "+5V" "+5V"
+ P4 1
+ J3 3
+ P2 1
+ R7 1
+ C1 1
+ L1 1
+Net 57 "/MAIN/VDAC1" "VDAC1"
+ P3 1
+ C2 1
+ P1 12
+Net 63 "/MAIN/LINE1_INL" "LINE1_INL"
+ P1 22
+ C4 2
+Net 64 "/MAIN/HPL" "HPL"
+ R3 1
+ L6 2
+ P1 20
+Net 65 "/MAIN/HP_VGND" "HP_VGND"
+ L7 2
+ R6 2
+ R3 2
+ P1 18
+Net 67 "/MAIN/LINE1_INR" "LINE1_INR"
+ P1 19
+ C3 2
+Net 77 "/MAIN/VBUS" "VBUS"
+ L1 2
+ C5 1
+ C6 1
+ D2 2
+ CON2 1
+Net 78 "" ""
+ D1 1
+ R7 2
+Net 79 "" ""
+ J1 3
+ L5 1
+Net 80 "" ""
+ L2 1
+ J1 1
+Net 81 "" ""
+ L3 2
+ R2 1
+Net 82 "" ""
+ R1 1
+ L2 2
+Net 83 "" ""
+ L3 1
+ J1 2
+Net 84 "/MAIN/HPR" "HPR"
+ R6 1
+ L4 2
+ P1 17
+Net 85 "" ""
+ R1 2
+ C3 1
+ R5 1
+Net 86 "" ""
+ R4 1
+ C4 1
+ R2 2
+Net 87 "" ""
+ J2 2
+ L6 1
+Net 88 "/MAIN/USB_ID" "USB_ID"
+ CON2 4
+ JP1 2
+Net 89 "/MAIN/SSPI_DETECT" "SSPI_DETECT"
+ P1 4
+ JP1 1
+Net 90 "" ""
+ L7 1
+ J2 3
+Net 91 "" ""
+ CON2 5
+ L8 2
+Net 92 "" ""
+ L4 1
+ J2 1
+}
+#End

@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by PcbNew date = lun 13 may 2013 13:53:03 COT
+
+BeginCmp
+TimeStamp = /518FB334/518FB737;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB70A;
+Reference = C2;
+ValeurCmp = 50pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4EE;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4F4;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519002B1;
+Reference = C5;
+ValeurCmp = 33uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519002C0;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB41C;
+Reference = CON2;
+ValeurCmp = USB-A_;
+IdModule  = USBA;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/51901512;
+Reference = D1;
+ValeurCmp = 5VDC;
+IdModule  = LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519002CF;
+Reference = D2;
+ValeurCmp = RSA5M;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4B7;
+Reference = J1;
+ValeurCmp = AUDIO_IN;
+IdModule  = AUDIO_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB462;
+Reference = J2;
+ValeurCmp = AUDIO_OUT;
+IdModule  = AUDIO_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/5190441D;
+Reference = J3;
+ValeurCmp = JACK-PLUG0;
+IdModule  = J5;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB459;
+Reference = JP1;
+ValeurCmp = USB_ID;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB8C2;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/51900205;
+Reference = L1;
+ValeurCmp = 2A__120_OHM;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519013B4;
+Reference = L2;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519013C7;
+Reference = L3;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB468;
+Reference = L4;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519013CE;
+Reference = L5;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/5190139A;
+Reference = L6;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/519013A1;
+Reference = L7;
+ValeurCmp = 1500_ohms_@_100MHz;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/5190136C;
+Reference = L8;
+ValeurCmp = 2A__120_OHM;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB5F5;
+Reference = P1;
+ValeurCmp = i.MX;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB332/518FBE32;
+Reference = P2;
+ValeurCmp = LCD_STAMP;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB704;
+Reference = P3;
+ValeurCmp = BNC;
+IdModule  = RCA_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB5EF;
+Reference = P4;
+ValeurCmp = ATSAM;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB332/518FBF40;
+Reference = P5;
+ValeurCmp = LCD_MODULE;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB332/518FCFB5;
+Reference = Q1;
+ValeurCmp = 2N7002;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4CF;
+Reference = R1;
+ValeurCmp = 10K_5%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4DB;
+Reference = R2;
+ValeurCmp = 10K_5%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB46E;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4D5;
+Reference = R4;
+ValeurCmp = 4.7K_5%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB4E1;
+Reference = R5;
+ValeurCmp = 4.7K_5%;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FB474;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/51901503;
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB332/518FE8FD;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = SWITCH_VER;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FF0AF;
+Reference = SW2;
+ValeurCmp = PLAY/PAUSE;
+IdModule  = SWITCH_VER;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FB334/518FFCD9;
+Reference = U1;
+ValeurCmp = RCLAMP0502B;
+IdModule  = SOT353;
+EndCmp
+
+EndListe
