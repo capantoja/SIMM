@@ -1,0 +1,9 @@
+
+
+********************* How do Length Matching in Kicad *********************************
+In Freerouting
+Select Help | Help Contents in the menu bar. to open the the online help.
+In the left window of the online help select Net Classes | Assign Net Class.
+Then search in the right window the items min length and max length.
+Length matching is only supported in interactive routing, not in autorouting.
+Eventually you can correct the critical nets interactively after autorouting
